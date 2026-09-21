@@ -19,7 +19,10 @@ app = FastAPI(title="Advanced Hybrid RAG Engine")
 # CORS setup for React frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    origins=[
+        "http://localhost:5173",
+        "https://rag-frontend-rust.vercel.app",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

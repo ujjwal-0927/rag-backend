@@ -139,7 +139,7 @@ async def chat(query: str):
     def generate():
         try:
             response = gemini_client.models.generate_content_stream(
-                model="gemini-2.5-flash",
+                model="gemini-3.6-flash",
                 contents=prompt,
                 config=types.GenerateContentConfig(
                     automatic_function_calling=types.AutomaticFunctionCallingConfig(

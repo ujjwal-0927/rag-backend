@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+chromadb
+rank-bm25
+cohere
+pypdf
+google-genai
+python-dotenv
+python-multipart

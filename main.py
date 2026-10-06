@@ -22,6 +22,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "https://rag-frontend-rust.vercel.app",
+        "https://rag.ujjwaldev.me"
     ],
     allow_credentials=True,
     allow_methods=["*"],
